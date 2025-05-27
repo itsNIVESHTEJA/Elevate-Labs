@@ -2,6 +2,8 @@
 
 - load the data set
 - descibe the data
+- cleaning the data
+- make plots to analyse
 ## data cleaning
 - drop the unwanted columns
 - identify null values
