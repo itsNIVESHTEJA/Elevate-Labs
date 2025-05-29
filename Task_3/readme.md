@@ -44,7 +44,7 @@ The model is evaluated using metrics such as R² Score and RMSE to measure its a
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 - Linear Regression provides a baseline model for predicting housing prices.
 - Log transformation of skewed numeric features improves the model’s predictive ability.
@@ -52,7 +52,7 @@ The model is evaluated using metrics such as R² Score and RMSE to measure its a
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python
 - pandas
