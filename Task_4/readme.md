@@ -57,7 +57,7 @@ To predict whether a tumor is **benign (B)** or **malignant (M)** based on vario
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - **Logistic Regression**: Used for binary classification by mapping input features to a probability using the **sigmoid function**.
   
