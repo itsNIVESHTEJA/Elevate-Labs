@@ -41,7 +41,7 @@ This project analyzes heart disease data to classify patients as having or not h
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.7+
 - pandas
