@@ -10,7 +10,6 @@ CLASS_NAMES = ['Apple Black Rot', 'Apple Cedar Rust', 'Apple Scab', 'Apple Healt
 # Load model
 model = load_model('plant_model_small.h5')
 
-
 # Streamlit UI
 st.title(" Apple Leaf Disease Classifier")
 st.markdown("Upload a leaf image to detect the disease.")
@@ -32,6 +31,11 @@ if uploaded_file:
     predicted_class = CLASS_NAMES[np.argmax(prediction)]
     confidence = np.max(prediction)
 
+    # Display result
+    st.success(f"Predicted Class: **{predicted_class}**")
+    st.info(f"Confidence: **{confidence:.2%}**")
+
+
     # Result
-    st.markdown(f"### 🩺 Prediction: **{predicted_class}**")
-    st.markdown(f"### 🔬 Confidence: **{confidence * 100:.2f}%**")
+    st.markdown(f"###  Prediction: **{predicted_class}**")
+    st.markdown(f"###  Confidence: **{confidence * 100:.2f}%**")
